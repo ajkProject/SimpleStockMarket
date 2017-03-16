@@ -1,0 +1,6 @@
+c:\users\alex\documents\visual studio 2015\Projects\SimpleStockMarket\SimpleStockMarket\bin\Debug\SimpleStockMarket.exe.config
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\SimpleStockMarket\bin\Debug\SimpleStockMarket.exe
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\SimpleStockMarket\bin\Debug\SimpleStockMarket.pdb
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\SimpleStockMarket\obj\Debug\SimpleStockMarket.csprojResolveAssemblyReference.cache
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\SimpleStockMarket\obj\Debug\SimpleStockMarket.exe
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\SimpleStockMarket\obj\Debug\SimpleStockMarket.pdb

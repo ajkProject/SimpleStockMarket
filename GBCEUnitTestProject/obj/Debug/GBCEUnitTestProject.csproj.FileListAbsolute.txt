@@ -1,0 +1,7 @@
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\bin\Debug\GBCEUnitTestProject.dll
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\bin\Debug\GBCEUnitTestProject.pdb
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\bin\Debug\SimpleStockMarket.exe
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\bin\Debug\SimpleStockMarket.pdb
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\obj\Debug\GBCEUnitTestProject.csprojResolveAssemblyReference.cache
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\obj\Debug\GBCEUnitTestProject.dll
+C:\Users\Alex\documents\visual studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\obj\Debug\GBCEUnitTestProject.pdb

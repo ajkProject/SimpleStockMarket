@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStockMarket", "SimpleStockMarket\SimpleStockMarket.csproj", "{9FA7938D-4978-4119-9AAD-A864E382EBC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GBCEUnitTestProject", "GBCEUnitTestProject\GBCEUnitTestProject.csproj", "{B20C0E1F-2AF0-45BF-B2FF-651B085C7A77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FA7938D-4978-4119-9AAD-A864E382EBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA7938D-4978-4119-9AAD-A864E382EBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA7938D-4978-4119-9AAD-A864E382EBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA7938D-4978-4119-9AAD-A864E382EBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20C0E1F-2AF0-45BF-B2FF-651B085C7A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20C0E1F-2AF0-45BF-B2FF-651B085C7A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20C0E1F-2AF0-45BF-B2FF-651B085C7A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20C0E1F-2AF0-45BF-B2FF-651B085C7A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

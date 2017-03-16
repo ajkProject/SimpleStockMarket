@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions;ValidateProjects">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore\*" Condition="'$(ImportByWildcardBeforeSolution)' != 'false' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore')" />
+  <Import Project="C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\before.SimpleStockMarket.sln.targets" Condition="exists('C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\before.SimpleStockMarket.sln.targets')" />
+  <PropertyGroup Condition=" '$(Configuration)' == '' ">
+    <Configuration>Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == '' ">
+    <Platform>Any CPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(AspNetConfiguration)' == '') ">
+    <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SolutionDir>C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>SimpleStockMarket.sln</SolutionFileName>
+    <SolutionName>SimpleStockMarket</SolutionName>
+    <SolutionPath>C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\SimpleStockMarket.sln</SolutionPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and ('$(MSBuildToolsVersion)' == '3.5' or '$(MSBuildToolsVersion)' == '3.0')">v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and !('$(MSBuildToolsVersion)' == '3.5' or '$(MSBuildToolsVersion)' == '3.0' or '$(MSBuildToolsVersion)' == '2.0')">v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{9FA7938D-4978-4119-9AAD-A864E382EBC9}" AbsolutePath="C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\SimpleStockMarket\SimpleStockMarket.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B20C0E1F-2AF0-45BF-B2FF-651B085C7A77}" AbsolutePath="C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\GBCEUnitTestProject.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <ItemGroup>
+    <SolutionConfiguration Include="Debug|Any CPU">
+      <Configuration>Debug</Configuration>
+      <Platform>Any CPU</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{9FA7938D-4978-4119-9AAD-A864E382EBC9}" AbsolutePath="C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\SimpleStockMarket\SimpleStockMarket.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B20C0E1F-2AF0-45BF-B2FF-651B085C7A77}" AbsolutePath="C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\GBCEUnitTestProject.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+    <SolutionConfiguration Include="Release|Any CPU">
+      <Configuration>Release</Configuration>
+      <Platform>Any CPU</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{9FA7938D-4978-4119-9AAD-A864E382EBC9}" AbsolutePath="C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\SimpleStockMarket\SimpleStockMarket.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B20C0E1F-2AF0-45BF-B2FF-651B085C7A77}" AbsolutePath="C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\GBCEUnitTestProject.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+  </ItemGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{9FA7938D-4978-4119-9AAD-A864E382EBC9}" AbsolutePath="C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\SimpleStockMarket\SimpleStockMarket.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{B20C0E1F-2AF0-45BF-B2FF-651B085C7A77}" AbsolutePath="C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\GBCEUnitTestProject\GBCEUnitTestProject.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter\*" Condition="'$(ImportByWildcardBeforeSolution)' != 'false' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter')" />
+  <Import Project="C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\after.SimpleStockMarket.sln.targets" Condition="exists('C:\Users\Alex\Documents\Visual Studio 2015\Projects\SimpleStockMarket\after.SimpleStockMarket.sln.targets')" />
+  <Target Name="Build" />
+  <Target Name="Rebuild" />
+  <Target Name="Clean" />
+  <Target Name="Publish" />
+</Project>
